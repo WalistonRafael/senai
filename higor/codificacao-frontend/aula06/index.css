@@ -1,0 +1,14 @@
+.pai{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color:crimson;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}

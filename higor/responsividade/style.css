@@ -1,0 +1,60 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+.sedans{
+    background-color: var(--Bright-orange);
+    padding: 40px
+}
+
+.suvs{
+    background-color: var(--Dark-cyan);
+    padding: 40px
+}
+
+.luxury{
+    background-color: var(--Very-dark-cyan);
+    padding: 40px
+}
+
+.imagem{
+    margin: 20px 0;
+}
+
+.titulo{
+    margin: 10px 0;
+    color: var(--Very-light-gray);
+    font-size: 2.5em;
+    font-family: "Big Shoulders Display", "s";
+
+}
+
+.descricao{
+    margin: 20px 0;
+    color: var(--Transparent-white);
+    font-family: "Lexend deca";
+}
